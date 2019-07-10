@@ -30,7 +30,7 @@ def callback():
     elif (usertext == 'ทำไร') :
         sendText(user,'https://www.youtube.com/watch?v=PX7oPIjsofY')
     else :
-        print('ไอ ้FLY')
+        sendText(user,'ไอ ้FLY')
     return '',200
 
 def sendText(user, text):
