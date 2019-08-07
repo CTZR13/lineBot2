@@ -24,13 +24,13 @@ def callback():
     userText = decoded["events"][0]['message']['text']
     #sendText(user,userText)
     if (usertext == 'สวัสดีครับ') :
-         sendText(user,'heeloจ้าา')
+        sendText(user,'heeloจ้าา')
     elif (usertext == 'หน้าหี') :
-         sendText(user,'มึงนะสิ')
+        sendText(user,'มึงนะสิ')
     elif (usertext == 'ทำไร') :
-         sendText(user,'https://www.youtube.com/watch?v=PX7oPIjsofY')
+        sendText(user,'https://www.youtube.com/watch?v=PX7oPIjsofY')
     else :
-         sendText(user,'ไอ ้FLY')
+        sendText(user,'ไอ ้FLY')
     return '',200
 
 def sendText(user, text):
