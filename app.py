@@ -23,11 +23,11 @@ def callback():
     user = decoded["events"][0]['replyToken']
     userText = decoded["events"][0]['message']['text']
     #sendText(user,userText)
-    if (usertext == 'สวัสดีครับ') :
+    if (userText == 'สวัสดีครับ') :
         sendText(user,'heeloจ้าา')
-    elif (usertext == 'หน้าหี') :
+    elif (userText == 'หน้าหี') :
         sendText(user,'มึงนะสิ')
-    elif (usertext == 'ทำไร') :
+    elif (userText == 'ทำไร') :
         sendText(user,'https://www.youtube.com/watch?v=PX7oPIjsofY')
     else :
         sendText(user,'IFLY')
